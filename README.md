@@ -1,4 +1,4 @@
-# Simple go platform for go
+# Init roc platform in go
 
 ## Warnings
 
