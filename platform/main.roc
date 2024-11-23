@@ -1,9 +1,9 @@
 platform "go-platform"
-    requires {} { main : Str }
+    requires {} { main : { url : Str } -> List { name : Str, content : Str } }
     exposes []
     packages {}
     imports []
     provides [mainForHost]
 
-mainForHost : Str
+mainForHost : { url : Str } -> List { name : Str, content : Str }
 mainForHost = main
