@@ -4,4 +4,4 @@
 
 ### Added
 
-- v0.0.1: Simple port of https://www.roc-lang.org/examples/GoPlatform/README.html
+- 0.0.1: Simple modification of https://www.roc-lang.org/examples/GoPlatform/README.html for init platform
